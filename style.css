@@ -23,8 +23,11 @@ body {
   
   /* Giving our navbar some padding and a background color */
   .navbar {
-    
+    padding: 10px;
     background: #48bac2;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. */
@@ -34,12 +37,14 @@ body {
     margin-left: 10px;
     cursor: pointer;
     border-radius: 3px;
+    
   }
   
-  /* Getting rid of the default link styles here */
-  .navbar li a {
-    color: #000;
-    text-decoration: none;
+  
+
+  .container {
+    margin-top: 40px;
+  
   }
   
   .col-md-12{
@@ -47,21 +52,12 @@ body {
     padding-top: 20px;
     padding-bottom:40px;
 }
+  .col-md-6{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+  }
 
 
   
-  /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  /*.header h1 {
-    padding: 200px;
-    margin: 20px;
-    color: #000;
-    text-align: center;
-  }
-  
-  /* Giving the .post element margin on 3 sides */
-  .post {
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
   

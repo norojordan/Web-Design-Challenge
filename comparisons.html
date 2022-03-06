@@ -40,7 +40,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                        <a class="nav-link" href="comparison.html">Comparison</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="data.html">Data</a>
@@ -52,57 +52,32 @@
    
 
    
-        <!-- Create container, rows and columns and add images -->
+        <!-- Create container, and add graphs -->
     <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="col-md-12">
-              <h1>Humidity</h1>
-              <hr>
-    
-            <section id="Latitude Summary">
-              <section id="graph">
-                 <img src="Resources/assets/images/Fig2.png" alt="Humidity" width ="100%">   
-              </section>
-              <p>
-              The Humidity vs. Latitude chart is not showing any correlation.
-              </p>
-              <p></p>
-              <p></p>
-              <p>
-              
-              </p>
-            </section>
-          </div>  
-        </div>
-       
-        <!-- Visualizations -->
-        <div class="col-md-4">
-            <div class ="col-md-12">
-              <h2>Visualizations</h2>
-              <hr> 
-              <div class="row">
-                <div class="col-3 col-md-6">
-                  <a href="temp.html"><img src="Resources/assets/images/Fig1.png"  alt = "Max Temps" width ="100%" style="float:left">
-                 </a>
-                </div>
-                <div class="col-3 col-md-6">
-                  <a href="humidity.html"><img src="Resources/assets/images/Fig2.png"  alt = "humidity" width ="100%" style="float:right">
-                 </a>
-                </div>
-                <div class="col-3 col-md-6">
-                  <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt = "cloudiness" width ="100%" style="float:left">
-                  </a>
-                </div>
-                <div class="col-3 col-md-6">
-                  <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt = "wind speed" width ="100%" style="float:right">
-                  </a>
-                </div>
-              </div>
+        <h1>Comparison: Latitude vs X</h1>
+        <hr>
+        <p>Click any graph for an in-depth analysis.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class = "text-center">vs. Max Temperature</h2>
+                <a href="temp.html"><img width ="100%" src="Resources/assets/images/Fig1.png"></a>
             </div>
-        </div> 
-      </div>  
-    </div>  
+            <div class="col-md-6">
+                <h2 class = "text-center">vs. Humidity </h2>
+                <a href="humidity.html"><img width ="100%" src="Resources/assets/images/Fig2.png"></a>
+            </div>    
+            <div class="col-md-6">
+                <h2 class = "text-center">vs. Cloudiness </h2>
+                <a href="cloudiness.html"><img width ="100%" src="Resources/assets/images/Fig3.png"></a>
+            </div>
+            <div class="col-md-6">
+                <h2 class = "text-center">vs. Wind Speed </h2>
+                <a href="windspeed.html"><img width ="100%" src="Resources/assets/images/Fig4.png"></a>
+            </div>
+        </div>
+    </div>    
+
+
     </main>
 
     <script
