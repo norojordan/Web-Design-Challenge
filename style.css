@@ -4,21 +4,21 @@ body {
   }
   
   h1 {
-    font-size: 20px;
+    font-size: 25px;
     color: #48bac2;
     font-weight: bold;
     font-family: Georgia, sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   h2 {
-    font-size: 20px;
+    font-size: 25px;
     color: #48bac2;
     font-weight: bold;
     font-family: Georgia, sans-serif;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   /* Giving our navbar some padding and a background color */
@@ -44,7 +44,7 @@ body {
   
   .col-md-12{
     background-color: white;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom:40px;
 }
 
