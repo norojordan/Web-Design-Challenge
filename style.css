@@ -40,7 +40,9 @@ body {
     
   }
   
-  
+  a.nav-link {
+    color:black
+  }
 
   .container {
     margin-top: 40px;
