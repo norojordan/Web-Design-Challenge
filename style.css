@@ -22,8 +22,8 @@ body {
   }
   
   /* Giving our navbar some padding and a background color */
-  .navbar {
-    padding: 10px;
+  a.navbar-brand{
+    padding: 10px;;
     background: #48bac2;
     font-weight: bold;
     font-family: 'Georgia', Times, serif;
